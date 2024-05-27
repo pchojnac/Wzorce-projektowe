@@ -1,0 +1,25 @@
+5 dobrych praktyk:
+
+1. Używanie czytelnych i znaczących nazw:
+Nazwy zmiennych, funkcji, klas i innych elementów kodu powinny być opisowe i jasno wskazywać na ich przeznaczenie.
+
+2. Stosowanie zasad SOLID:
+SOLID to zbiór zasad projektowania obiektowego, które pomagają w tworzeniu bardziej elastycznego, czytelnego i łatwiejszego do utrzymania kodu.
+Obejmują one:
+Single Responsibility Principle (Zasada pojedynczej odpowiedzialności)
+Open/Closed Principle (Zasada otwarte/zamknięte)
+Liskov Substitution Principle (Zasada podstawienia Liskov)
+Interface Segregation Principle (Zasada segregacji interfejsów)
+Dependency Inversion Principle (Zasada odwrócenia zależności)
+
+3.Pisanie testów jednostkowych:
+Pisanie testów jednostkowych pomaga zapewnić, że kod działa zgodnie z oczekiwaniami i ułatwia wczesne wykrywanie błędów.
+Testy jednostkowe powinny być automatyczne i pokrywać jak najwięcej funkcji.
+
+4. Komentowanie kodu:
+Dodawanie komentarzy tam, gdzie kod może być trudny do zrozumienia.
+Komentarze powinny wyjaśniać dlaczego coś jest robione, a nie co jest robione (to powinno wynikać z czytelności samego kodu).
+
+5.Zasada DRY (Don't Repeat Yourself):
+Unikanie duplikowania kodu.
+Jeżeli zauważy sie, że pewien fragment kodu powtarza się w różnych miejscach, wyodrębnia sie go do osobnej funkcji lub klasy.

@@ -1,0 +1,9 @@
+Singleton jest antywzorcem z kilku powodów:
+
+- Singletony utrudniają testowanie jednostkowe, ponieważ ich globalny stan może wpływać na inne testy.
+
+- Używanie singletonów prowadzi do ukrytych zależności między klasami, co sprawia, że kod staje się mniej przejrzysty i trudniejszy do zrozumienia.
+
+- Singletony często łączą zarządzanie stanem oraz logikę biznesową, co narusza zasadę pojedynczej odpowiedzialności, prowadząc do nadmiernej złożoności klasy.
+
+- W środowiskach wielowątkowych zarządzanie jedyną instancją singletona może prowadzić do problemów z synchronizacją, co może skutkować trudnymi do zdiagnozowania błędami.
